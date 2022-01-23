@@ -470,6 +470,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -509,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .h-3{
   height: 0.75rem;
 }
@@ -529,6 +541,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .items-center{
   align-items: center;
 }
@@ -539,6 +559,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-items-center{
   justify-items: center;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .border-b{
