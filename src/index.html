@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../dist/output.css" rel="stylesheet">
 </head>
-<body class="text-gray-400">
+<body class="text-gray-400 font-nunitro">
 
 <div> <!-- content wraper -->
     <div class="p-4">
         <nav>
-            <div>
-                <h1 class="text-gray-700 text-2xl font-bold">
+            <div class="flex">
+                <div class="flex items-center justify-items-center">
+                    <div class="bg-primary h-3 w-3"></div>
+                    <div class="bg-secondary-100 h-4 w-3"></div>
+                    <div class="bg-secondary-200 h-6 w-3"></div>
+                </div>
+                <h1 class="text-gray-700 text-2xl font-bold ml-2">
                     <a href="" class="text-primary">KamerFood</a>
                 </h1>
             </div>
@@ -35,9 +40,9 @@
         </nav>
     </div>  <!-- fin entete -->
     <main class="p-16">
-        <div class="my-2">
+        <div class="my-2 text-secondary-200 flex justify-end">
             <a href="">Connexion</a>
-            <a href="">Inscription</a>
+            <a href="" class="ml-3">Inscription</a>
         </div>
         <header class="mt-8">
             <h2 class="text-primary text-5xl font-semibold">Recettes</h2>
@@ -45,8 +50,8 @@
         </header>
         <div>
             <div>
-                <h4 class="text-secondary-100 text-3xl my-4 border-b border-gray-300">Recettes les plus recentes</h4>
-                <div class="pb-16">
+                <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus recentes</h4>
+                <div class="py-16">
                     <!-- nos cards ici -->
                     <div >
                         <img src="../dist/images/Poisson Braise.jpg" alt="">
@@ -58,12 +63,16 @@
                 </div>
             </div>
             <div>
-                <h4 class="text-secondary-100 text-3xl my-4 border-b border-gray-300">Recettes ples plus populaires</h4>
+                <h4 class="text-secondary-100 text-3xl my-4 pb-2 border-b border-gray-300">Recettes ples plus populaires</h4>
                 <div class="pb-16">
                     <!-- les cartes ici -->
 
                 </div>
             </div>
+        </div>
+
+        <div class="flex justify-center">
+            <div class="bg-gray-300 text-gray-800 py-2 px-4">afficher plus...</div>
         </div>
     </main> <!-- fin contenu principal -->
 </div>

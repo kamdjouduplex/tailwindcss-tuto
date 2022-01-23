@@ -11,6 +11,9 @@ module.exports = {
       },
       fontSize: {
         pro: '10rem'
+      },
+      fontFamily:{
+        nunitro: 'Nunito'
       }
     },
   },
