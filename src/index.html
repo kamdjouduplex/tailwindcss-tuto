@@ -7,8 +7,8 @@
 </head>
 <body class="text-gray-400 font-nunitro">
 
-<div class="grid grid-cols-4"> <!-- content wraper -->
-    <div class="p-4 col-span-1">
+<div class="grid md:grid-cols-4"> <!-- content wraper -->
+    <div class="p-4 md:col-span-1">
         <nav>
             <div class="flex">
                 <div class="flex items-center justify-items-center">
@@ -24,22 +24,25 @@
                 <li>
                     <a href="">
                         <span class="text-gray-700 font-bold">Acceuil</span>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <span>Apropos</span>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"></path></svg>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <span>Contact</span>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     </a>
                 </li>
             </ul>
         </nav>
     </div>  <!-- fin entete -->
-    <main class="p-16 bg-gray-100 col-span-3">
+    <main class="p-16 bg-gray-100 md:col-span-3">
         <div class="my-2 text-secondary-200 flex justify-center md:justify-end">
             <a href="" class="btn border border-2 border-secondary-200">Connexion</a>
             <a href="" class="ml-3 btn border border-2 border-secondary-200">Inscription</a>
@@ -51,7 +54,7 @@
         <div>
             <div>
                 <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus recentes</h4>
-                <div class="py-16 grid grid-cols-3 gap-8">
+                <div class="py-16 grid md:grid-cols-3 gap-8">
                     <!-- nos cards ici -->
                     <div class="card">
                         <img src="../dist/images/Poisson Braise.jpg" alt="poisson braise" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover">
@@ -59,8 +62,9 @@
                             <span class="font-bold text-2xl">Poisson Braisé</span>
                             <span class="block text-lg">Par tony pro</span>
                         </div>
-                        <div class="badge">
-                            <span class="mx-2 uppercase">30:00 mins</span>
+                        <div class="badge px-2">
+                            <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="uppercase">10:00 mins</span>
                         </div>
                     </div>
                     <div class="card">
@@ -69,8 +73,9 @@
                             <span class="font-bold text-2xl">Porc Braisé</span>
                             <span class="block text-lg">Par tony pro</span>
                         </div>
-                        <div class="badge">
-                            <span class="mx-2 uppercase">30:00 mins</span>
+                        <div class="badge px-2">
+                            <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="uppercase">10:00 mins</span>
                         </div>
                     </div>
                     <div class="card">
@@ -79,8 +84,9 @@
                             <span class="font-bold text-2xl">Poulet DG</span>
                             <span class="block text-lg">Par tony pro</span>
                         </div>
-                        <div class="badge">
-                            <span class="mx-2 uppercase">30:00 mins</span>
+                        <div class="badge px-2">
+                            <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="uppercase">10:00 mins</span>
                         </div>
                     </div>
                     <div class="card">
@@ -89,8 +95,9 @@
                             <span class="font-bold text-2xl">Fufu & Eru</span>
                             <span class="block text-lg">Par tony pro</span>
                         </div>
-                        <div class="badge">
-                            <span class="mx-2 uppercase">30:00 mins</span>
+                        <div class="badge px-2">
+                            <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="uppercase">10:00 mins</span>
                         </div>
                     </div>
                 </div>
