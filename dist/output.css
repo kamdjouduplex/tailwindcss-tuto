@@ -470,6 +470,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -564,10 +568,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2rem;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-2{
   border-width: 2px;
 }
@@ -611,6 +611,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.bg-fixed{
+  background-attachment: fixed;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -618,10 +622,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-4{
   padding: 1rem;
-}
-
-.p-16{
-  padding: 4rem;
 }
 
 .py-2{
@@ -641,10 +641,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.pb-16{
-  padding-bottom: 4rem;
 }
 
 .font-nunitro{
@@ -793,6 +789,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
+  .md\:fixed{
+    position: fixed;
+  }
+
   .md\:col-span-1{
     grid-column: span 1 / span 1;
   }
@@ -801,16 +801,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-column: span 3 / span 3;
   }
 
-  .md\:grid{
-    display: grid;
-  }
-
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:grid-cols-2{
